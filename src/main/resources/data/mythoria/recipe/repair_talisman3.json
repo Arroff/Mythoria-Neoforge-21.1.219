@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "LDD",
+    "RLR",
+    "EEL"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:diamond_block"
+    },
+    "E": {
+      "item": "minecraft:emerald_block"
+    },
+    "L": {
+      "item": "minecraft:lapis_block"
+    },
+    "R": {
+      "item": "mythoria:repair_talisman2"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "mythoria:repair_talisman3"
+  }
+}

@@ -19,6 +19,9 @@ group = mod_group_id
 
 repositories {
     // Add here additional repositories if required by some of the dependencies below.
+    maven{url = "https://maven.theillusivec4.top/"} //Curios
+    maven{url = "https://thedarkcolour.github.io/KotlinForForge/"} //Kotlin
+    maven{url = "https://artefacts.cobblemon.com/releases/"} //Cobblemon
 }
 
 base {
@@ -112,6 +115,12 @@ configurations {
 }
 
 dependencies {
+    //Curios
+    runtimeOnly "top.theillusivec4.curios:curios-neoforge:${curios_version}"
+    compileOnly "top.theillusivec4.curios:curios-neoforge:${curios_version}:api"
+    implementation "thedarkcolour:kotlinforforge-neoforge:5.10.0"
+    implementation "com.cobblemon:neoforge:1.7.3+1.21.1"
+
     // Example optional mod dependency with JEI
     // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime
     // compileOnly "mezz.jei:jei-${mc_version}-common-api:${jei_version}"

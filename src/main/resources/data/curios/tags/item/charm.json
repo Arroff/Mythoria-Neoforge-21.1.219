@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "mythoria:repair_talisman1",
+    "mythoria:repair_talisman2",
+    "mythoria:repair_talisman3",
+    "mythoria:repair_talisman4",
+    "mythoria:repair_talisman5"
+  ]
+}
